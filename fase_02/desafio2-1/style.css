@@ -6,8 +6,8 @@
 
 body {
   background: rgb(11, 10, 13);
-  font-family: Roboto;
   margin: 0;
+  font-family: 'Roboto';
 }
 
 header {
@@ -20,4 +20,8 @@ header a {
   padding: 30px;
   color: white;
   text-decoration: none;
+}
+
+header a:hover {
+  color: green;
 }
