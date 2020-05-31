@@ -7,7 +7,7 @@
 body {
   background: rgb(11, 10, 13);
   margin: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -23,5 +23,6 @@ header a {
 }
 
 header a:hover {
-  color: green;
+  color: #50fa7b;
+  transition: 500ms;
 }
