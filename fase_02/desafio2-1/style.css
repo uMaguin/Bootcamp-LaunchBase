@@ -26,5 +26,5 @@ header a {
 
 header a:hover {
   color: #50fa7b;
-  transition: 500ms;
+  transition: color 500ms;
 }
