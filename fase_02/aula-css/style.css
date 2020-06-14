@@ -37,3 +37,45 @@ header {
   color: var(--color-green);
   transition: color 500ms;
 }
+
+#perfil {
+  text-align: center;
+  padding: 32px;
+}
+
+#perfil img {
+  border-radius: 50%;
+  border: 3px solid var(--color-green);
+  margin-bottom: 32px;
+  height: 300px;
+}
+
+#perfil h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#perfil h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#perfil p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#perfil p a {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+#links-footer a {
+  text-decoration: underline;
+}
