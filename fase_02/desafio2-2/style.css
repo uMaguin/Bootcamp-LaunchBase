@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+  --color-green: #50fa7b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: rgb(11, 10, 13);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header {
+  padding: 30px;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-green);
+  transition: color 500ms;
+}
+
+#sobre {
+  text-align: center;
+  padding: 32px;
+}
+
+#sobre img {
+  border-radius: 50%;
+  border: 2px solid var(--color-green);
+  margin-bottom: 32px;
+}
+
+#sobre h1  {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#sobre p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 0.6;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.tec ul{
+  text-align: center;
+}
+
+.tec ul li {
+  display: inline;
+  padding: 20px;
+}
+
+#links-footer {
+  margin-top: 40px;
+}
+
+#links-footer a {
+  padding: 5px;
+  text-decoration: underline;
+}
