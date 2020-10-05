@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
   --color-white: #e1e1e6;
@@ -16,14 +15,22 @@
 }
 
 body {
-  background: rgb(11, 10, 13);
+  background: var(--color-background);
+
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: var(--color-white);
 }
 
+/* 
+  MENU
+      */
+
 header {
+  background: var(--color-background-header);
+
   padding: 30px;
   border-bottom: 1px solid #333;
+
   text-align: center;
 }
 
@@ -33,56 +40,74 @@ header {
 
 .links a {
   padding: 30px;
-  color: white;
+
+  color: var(--color-white);
   text-decoration: none;
 }
 
 .links a:hover {
-  color: var(--color-green);
+  color: var(--color-primary);
+
   transition: color 500ms;
 }
 
-#sobre {
+/* 
+  SOBRE
+       */
+
+#about {
   text-align: center;
   padding: 32px;
 }
 
-#sobre img {
+#about img {
   border-radius: 50%;
-  border: 2px solid var(--color-green);
-  margin-bottom: 32px;
+  border: 3px solid var(--color-primary);
 }
 
-#sobre h1 {
+#about h1 {
+  margin-top: 16px;
+
   font-size: 42px;
   line-height: 52px;
   font-weight: bold;
+  color: var(--color-secondary);
 }
 
-#sobre p {
-  max-width: 500px;
-  margin: 32px auto;
-  font-size: 24px;
-  line-height: 32px;
-  opacity: 0.6;
-  margin-top: 5px;
-  margin-bottom: 0px;
+#about p {
+  max-width: 400px;
+  margin: 8px auto;
+
+  font-size: 16px;
+  line-height: 22px;
 }
+
+/* 
+  TEC
+     */
 
 .tec ul {
   text-align: center;
 }
 
 .tec ul li {
+  margin: 0 8px;
   display: inline;
-  padding: 20px;
+
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--color-primary);
 }
 
+/* 
+  SOCIAL 
+        */
+
 #links-footer {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #links-footer a {
-  padding: 5px;
   text-decoration: underline;
 }
