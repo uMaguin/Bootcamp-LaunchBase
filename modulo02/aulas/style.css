@@ -91,6 +91,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  cursor: pointer;
 }
 
 .card {
@@ -130,6 +131,7 @@ header {
   position: fixed;
   top: 0;
   opacity: 0;
+  cursor: pointer;
   visibility: hidden;
 }
 
@@ -146,7 +148,6 @@ header {
   position: absolute;
   right: 8px;
   top: 8px;
-  cursor: pointer;
 }
 
 /* 
